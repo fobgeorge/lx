@@ -4,7 +4,7 @@
 FROM ubuntu:latest
 
 # 维护者信息
-MAINTAINER shiyanlou@shiyanlou.com
+MAINTAINER fobgeorge@msn.com
 
 # 镜像操作命令
 RUN apt-get -yqq update && apt-get install -yqq apache2 && apt-get clean
